@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core Projects", "Core Projects", "{DF9B01C7-B5C3-41BD-9004-3771F0FF41A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E78D05E4-8ADF-4028-8DF2-54D14DF3D5E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailEnable.CustomCounters.Program", "MailEnable.CustomCounters.Program\MailEnable.CustomCounters.Program.csproj", "{FCDF2F51-469C-4DFA-8447-BA00B794DA11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConfigSections", "TestConfigSections\TestConfigSections.csproj", "{9112C686-F7D8-4A89-8E8D-5C590176AF6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Projects", "Test Projects", "{2AA20873-0DB6-4F40-A0E3-4FF31976A192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailEnable.CustomCounters.Service", "MailEnable.CustomCounters.Service\MailEnable.CustomCounters.Service.csproj", "{8C5A4BED-663D-4CA6-83AE-50639C12E4AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCDF2F51-469C-4DFA-8447-BA00B794DA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDF2F51-469C-4DFA-8447-BA00B794DA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDF2F51-469C-4DFA-8447-BA00B794DA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDF2F51-469C-4DFA-8447-BA00B794DA11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9112C686-F7D8-4A89-8E8D-5C590176AF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9112C686-F7D8-4A89-8E8D-5C590176AF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9112C686-F7D8-4A89-8E8D-5C590176AF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9112C686-F7D8-4A89-8E8D-5C590176AF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5A4BED-663D-4CA6-83AE-50639C12E4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5A4BED-663D-4CA6-83AE-50639C12E4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5A4BED-663D-4CA6-83AE-50639C12E4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5A4BED-663D-4CA6-83AE-50639C12E4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCDF2F51-469C-4DFA-8447-BA00B794DA11} = {E78D05E4-8ADF-4028-8DF2-54D14DF3D5E4}
+		{8C5A4BED-663D-4CA6-83AE-50639C12E4AA} = {E78D05E4-8ADF-4028-8DF2-54D14DF3D5E4}
+		{9112C686-F7D8-4A89-8E8D-5C590176AF6D} = {2AA20873-0DB6-4F40-A0E3-4FF31976A192}
+	EndGlobalSection
+EndGlobal

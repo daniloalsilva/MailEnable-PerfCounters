@@ -1,0 +1,22 @@
+﻿{
+	"registryCategoryCounter": [
+		{
+			"categoryName": "MailEnable",
+			"categoryHelp": "MailEnable Counters",
+			"registryCounters": [
+				{
+					"registryName": "Inbound Delivery Count",
+					"registryPath": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Mail Enable\\Mail Enable\\Connectors\\SMTP",
+					"counterName": "InboundCountDelta",
+					"createDelta": true
+				},
+				{
+					"registryName": "Inbound Delivery Count",
+					"registryPath": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Mail Enable\\Mail Enable\\Connectors\\SMTP",
+					"counterName": "InboundCount",
+					"createDelta": false
+				},
+			]
+		}
+	]
+}
